@@ -1,0 +1,9 @@
+Go to
+https://www.ruby-lang.org/en/downloads/
+
+Download Ruby+Devkit 2.4.4 x64
+
+Finish
+
+(cmd will open)
+Press enter
