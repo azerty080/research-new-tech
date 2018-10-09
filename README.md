@@ -1,1 +1,1 @@
-# research-new-tech
+# research-new-technology
