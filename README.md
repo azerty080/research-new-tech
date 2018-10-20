@@ -7,6 +7,10 @@
 ### 15/10/2018
 - [Learn ruby codecademy course] gevolgd
 
+### 20/10/2018
+- [Learn ruby codecademy course] verder gevolgd
+- Notities gemaakt over coding in ruby
+
 
 
 
