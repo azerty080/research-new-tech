@@ -210,10 +210,42 @@ end
 
 
 
+
+
+
+
+
+# combined comparison operator
+puts 1 <=> 2 # 0 if values are equal, 1 if first value is greater, -1 if first values is lesser
+
+
+# can also be used in sort
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+
+books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
+
+puts books
+
+
+# other example
+fruits = ["orange", "apple", "banana", "pear", "grapes"]
+
+fruits.sort! do |fruitOne, fruitTwo| 
+  fruitTwo <=> fruitOne
+end
+
+
+
+
+
+
+
 # COMBINING BOOLEAN OPERATORS
 if (1 > 2 || 8 < 5) && true
 	print "true"
 end
+
+
 
 
 
@@ -354,6 +386,115 @@ end
 10.times do
   print "bla "
 end
+
+
+
+
+# .split
+text = "hello there this is a text"
+words = text.split(" ")
+
+words.each do |word|
+  puts word
+end
+
+
+
+
+# multidimensional array
+multidim_array = [[0,0,0,0],[1,1,1,1],[2,2,2,2]]
+
+multidim_array.each do |x|
+	puts x
+end
+
+
+strings_array = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+
+puts strings_array[0][1] # prints "swiss"
+
+
+# print all values from multidimensional array
+strings_array.each do |arr|
+  arr.each do |str|
+    puts str
+  end
+end
+
+
+
+
+
+
+# hashes
+# create hash name and assign value to one key value
+
+pets = Hash.new
+
+pets["Max"] = "dog"
+
+
+# or create one with multiple values and key values
+my_hash = {
+	"name" => "Niels",
+	"age" => 20,
+	"hungry?" => true
+}
+
+
+# print hashes
+puts my_hash
+
+puts my_hash["name"]
+puts my_hash["age"]
+puts my_hash["hungry?"]
+
+my_hash.each do |x|
+	puts "#{x}"
+end
+
+my_hash.each do |x, y|
+	puts "#{x}: #{y}"
+end
+
+
+
+
+
+
+# methods
+def welcome
+	puts "Welcome everyone!"
+end
+
+# use method
+welcome
+
+
+
+
+# method with parameters
+def square(n)
+	puts n ** 2
+end
+
+square(3)
+
+
+
+
+
+# method with return
+def add(num1, num2)
+  return num1 + num2
+end
+
+output = add(2, 5)
+
+puts output
+
+
 
 
 
