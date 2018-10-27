@@ -15,6 +15,11 @@
 - [Learn ruby codecademy course] verder gevolgd
 - Notities gemaakt over coding in ruby
 
+### 27/10/2018
+- [Learn ruby codecademy course] voltooid
+- Notities gemaakt over coding in ruby
+
+
 
 
 
