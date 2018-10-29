@@ -1,0 +1,56 @@
+cmd
+rails new project_name
+
+
+
+starting the web server
+cmd
+rails server
+
+go to
+127.0.0.1:3000 of localhost:3000
+
+
+
+generate controller
+rails generate controller Welcome index
+						   name   action
+
+by adding an action, the Welcome controller wil have 
+def index
+end
+in it
+and it will have created a view called index.html.erb in app/views/welcome
+
+
+controllers are stored at app/controllers	(file name is welcome_controller.rb)
+view of the Welcome controller is stored at app/views/welcome	(file name is index.html.erb)
+
+
+
+
+routing
+config/routes.rb
+
+I already made a welcome controller so it will have		get 'welcome/index'		in it
+
+put in
+root 'welcome#index'
+will send you to welcome controller index action if you go to the root of the site/application
+
+
+
+
+in routes.rb
+resources :articles
+will define routes for all the standard RESTful actions
+
+
+
+
+
+
+
+generate model
+rails generate model Article title:string text:text
+stored in app/models
