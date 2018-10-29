@@ -19,7 +19,11 @@
 - [Learn ruby codecademy course] voltooid
 - Notities gemaakt over coding in ruby
 
-
+### 29/10/2018
+- Ruby On Rails geïnstalleerd
+- [Getting started with rails] gevolgd
+- Notities gemaakt over installeren van ruby on rails
+- Notities gemaakt over hoe een nieuw ruby on rails project te maken
 
 
 
@@ -28,3 +32,5 @@
 [Ruby in 20 minutes]: https://www.ruby-lang.org/en/documentation/quickstart/
 
 [Learn ruby codecademy course]: https://www.codecademy.com/learn/learn-ruby
+
+[Getting started with rails]: https://guides.rubyonrails.org/getting_started.html
