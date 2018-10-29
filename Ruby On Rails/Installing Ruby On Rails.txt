@@ -1,0 +1,6 @@
+Have Ruby installed
+Have Sqlite3 installed
+
+cmd
+gem install rails
+rails --version
