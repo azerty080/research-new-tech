@@ -53,4 +53,11 @@ will define routes for all the standard RESTful actions
 
 generate model
 rails generate model Article title:string text:text
-stored in app/models
+will add title (type string) and text (type text) to the article table in the database
+models are stored in app/models
+
+database migrations are stored in db/migrate/...
+
+run migration with
+rails db:migrate
+
