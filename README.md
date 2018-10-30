@@ -25,6 +25,10 @@
 - Notities gemaakt over installeren van ruby on rails
 - Notities gemaakt over hoe een nieuw ruby on rails project te maken
 
+### 30/10/2018
+- [Getting started with rails] verder gevolgd
+- Notities gemaakt over ruby on rails
+
 
 
 
