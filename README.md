@@ -29,7 +29,9 @@
 - [Getting started with rails] verder gevolgd
 - Notities gemaakt over ruby on rails
 
-
+### 31/10/2018
+- [Getting started with rails] voltooid
+- Notities gemaakt over ruby on rails
 
 
 
