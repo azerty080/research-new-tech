@@ -61,3 +61,58 @@ database migrations are stored in db/migrate/...
 run migration with
 rails db:migrate
 
+
+
+
+
+
+another model
+rails generate model Comment commenter:string body:text article:references
+														 makes collumn in database that links comment with article
+														 also puts belongs_to :article in comment.rb model
+rails db:migrate doen na model te generaten
+
+article.rb aanpassen
+has_many :comments
+inzetten
+
+
+routes.rb aanpassen
+van
+
+resources :articles
+  v
+resources :articles do
+  resources :comments
+end
+
+maken
+
+
+
+
+generating Comments controller
+rails generate controller Comments
+
+
+
+
+comments are linked to article
+want to delete comments
+in article.rb change
+has_many :comments
+to
+has_many :comments, dependent: :destroy
+
+
+
+
+authentication
+add
+http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+to top of articles_controller.rb
+need to be logged in for everything except index and show
+
+add
+http_basic_authenticate_with name: "dhh", password: "secret", only: [:destroy]
+only need to be logged in for destroy
