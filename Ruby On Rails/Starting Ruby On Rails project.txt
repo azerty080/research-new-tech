@@ -2,6 +2,10 @@ cmd
 rails new project_name
 
 
+bundle install
+maakt gemfile.lock, zorgt ervoor dat alle gems en de versies ervan die nodig zijn, zijn geïnstalleerd
+
+
 
 starting the web server
 cmd
@@ -9,6 +13,9 @@ rails server
 
 go to
 127.0.0.1:3000 of localhost:3000
+
+
+
 
 
 
