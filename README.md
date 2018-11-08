@@ -34,6 +34,9 @@
 - Notities gemaakt over ruby on rails
 
 
+### 8/11/2018
+- Powerpoint gemaakt
+
 
 [Ruby in 20 minutes]: https://www.ruby-lang.org/en/documentation/quickstart/
 
